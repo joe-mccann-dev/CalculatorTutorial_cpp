@@ -19,6 +19,7 @@ int main()
     Calculator c;
     while (true)
     {
+        // prevent divide by zero error
         cin >> x >> oper >> y;
         if (oper == '/' && y == 0)
         {
